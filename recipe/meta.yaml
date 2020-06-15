@@ -1,6 +1,6 @@
 {% set name = "fakechroot" %}
-{% set version = "2.19" %}
-{% set sha256 = "39ffbbbe3a823be7450928b8e3b99ae4cb339c47213b2f1d8ff903e0246f2e15" %}
+{% set version = "2.20" %}
+{% set sha256 = "ab9b0d91b8a9b6369f019716aab1bc9512009eda106c4fabac3e7adc2eafd076" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
 
 build:
   number: 0
-  skip: True  # [not linux]
+  skip: true  # [not linux]
 
 requirements:
   build:
@@ -30,7 +30,7 @@ about:
   license: LGPL-2.1-only
   license_family: LGPL
   license_file: LICENSE
-  summary: 'fakechroot runs a command in an environment without requiring root privileges'
+  summary: fakechroot runs a command in an environment without requiring root privileges
 
   description: |
     fakechroot runs a command in an environment were is additional possibility
