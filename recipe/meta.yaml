@@ -1,6 +1,6 @@
 {% set name = "fakechroot" %}
-{% set version = "2.20" %}
-{% set sha256 = "ab9b0d91b8a9b6369f019716aab1bc9512009eda106c4fabac3e7adc2eafd076" %}
+{% set version = "2.20.1" %}
+{% set sha256 = "7f9d60d0d48611969e195fadf84d05f6c74f71bbf8f41950ad8f5bf061773e18" %}
 
 package:
   name: {{ name|lower }}
